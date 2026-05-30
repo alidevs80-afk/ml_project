@@ -1,8 +1,30 @@
 # Supervised Learning
-Supervised learning thrives in domains where labeled data is abundant. A clear example is fraud detection in financial transactions. Banks feed algorithms with historical transaction data labeled as either fraudulent or legitimate. The model learns patterns such as unusual spending times, vendor anomalies, or sudden spikes in amounts. Once trained, it can flag suspicious activity in real time, reducing financial losses and protecting customers. Other supervised applications include predicting house prices using property features and autocomplete in emails, where models learn from large text corpora to predict the next word .
+Supervised learning thrives in domains where labeled data is abundant. A clear example is fraud detection in financial transactions. Banks feed algorithms with historical transaction data labeled as either fraudulent or legitimate. The model learns patterns such as unusual spending times, vendor anomalies, or sudden spikes in amounts. Once trained, it can flag suspicious activity in real time, reducing financial losses and protecting customers. Other supervised applications include predicting house prices using property features and autocomplete in emails, where models learn from large text corpora to predict the next word.
 
 # Unsupervised Learning
-Unsupervised learning is powerful when labels are unavailable, and the goal is to uncover hidden structures. A practical example is customer segmentation in e-commerce. Retailers use clustering algorithms to group customers based on purchasing behavior, browsing history, and demographics. These clusters reveal distinct buyer personas such as bargain hunters, loyal repeat buyers, or seasonal shoppers without prior labels. Businesses then tailor marketing campaigns and product recommendations to each segment, boosting engagement and sales. Another common use case is detecting anomalies in network traffic, where unsupervised models identify unusual patterns that may signal cyberattacks .
+Unsupervised learning is powerful when labels are unavailable, and the goal is to uncover hidden structures. A practical example is customer segmentation in e-commerce. Retailers use clustering algorithms to group customers based on purchasing behavior, browsing history, and demographics. These clusters reveal distinct buyer personas such as bargain hunters, loyal repeat buyers, or seasonal shoppers without prior labels. Businesses then tailor marketing campaigns and product recommendations to each segment, boosting engagement and sales. Another common use case is detecting anomalies in network traffic, where unsupervised models identify unusual patterns that may signal cyberattacks.
 
 # Reinforcement Learning
-Reinforcement learning shines in dynamic environments where agents must learn through trial and error. A striking real-world example is autonomous driving by Wayve, a UK-based company. Their vehicles use reinforcement learning to optimize driving decisions, with rewards tied to safe distance traveled without human intervention. Similarly, Netflix leverages reinforcement learning to personalize recommendations, balancing immediate user satisfaction with long-term engagement by exploring new content. In retail, Walmart applies reinforcement learning to optimize inventory levels, ensuring shelves are stocked efficiently while minimizing waste .
+Reinforcement learning shines in dynamic environments where agents must learn through trial and error. A striking real-world example is autonomous driving by Wayve, a UK-based company. Their vehicles use reinforcement learning to optimize driving decisions, with rewards tied to safe distance traveled without human intervention. Similarly, Netflix leverages reinforcement learning to personalize recommendations, balancing immediate user satisfaction with long-term engagement by exploring new content. In retail, Walmart applies reinforcement learning to optimize inventory levels, ensuring shelves are stocked efficiently while minimizing waste.
+
+# ML Workflow
+
+Define Problem – Clarify goal and metrics.
+
+Collect Data – Gather from APIs, databases, or Kaggle.
+
+Explore Data (EDA) – Visualize distributions, correlations, outliers.
+
+Preprocess Data – Handle missing values, encode, scale, engineer features.
+
+Select Model – Choose baseline (e.g., Linear Regression, Random Forest).
+
+Train Model – Fit on training data.
+
+Evaluate Model – Test on unseen data using metrics (RMSE, F1, AUC).
+
+Tune Hyperparameters – Use GridSearchCV, Optuna for optimization.
+
+Deploy Model – Serve via Flask, FastAPI, or Streamlit.
+
+Monitor & Retrain – Track drift, update periodically.
